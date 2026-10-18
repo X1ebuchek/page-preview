@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "@xlebuchek/page-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom element for previewing an HTML page",
   "type": "module",
   "exports": "./src/page-preview.js",
