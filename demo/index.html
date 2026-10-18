@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Проверка page-preview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <h1>Демонстрация &lt;page-preview&gt;</h1>
+
+  <script type="module" src="../src/page-preview.js"></script>
+
+  <page-preview src="./example.html"></page-preview>
+  <page-preview src="./missing.html"></page-preview>
+  <page-preview src="./empty.html"></page-preview>
+</body>
+</html>

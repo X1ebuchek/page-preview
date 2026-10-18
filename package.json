@@ -1,0 +1,32 @@
+﻿{
+  "name": "@xlebuchek/page-preview",
+  "version": "1.0.0",
+  "description": "Custom element for previewing an HTML page",
+  "type": "module",
+  "exports": "./src/page-preview.js",
+  "main": "./src/page-preview.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "./src/page-preview.js"
+  ],
+  "keywords": [
+    "custom-element",
+    "web-component",
+    "page-preview",
+    "link-preview"
+  ],
+  "author": "xlebuchek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X1ebuchek/page-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/X1ebuchek/page-preview/issues"
+  },
+  "homepage": "https://github.com/X1ebuchek/page-preview#readme"
+}
